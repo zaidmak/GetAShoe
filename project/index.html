@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Shoe</title>
+    <link rel="stylesheet" href="../Css/loginpage.css">
+
+</head>
+
+<body>
+    <form action="../HTML/Homepage.html" onsubmit="return validateForm()" >
+    <div id = 'firstdiv'>
+        <div id = 'seconddiv'>
+            <table>
+                <tr>
+                    <td>
+        <input type="text" placeholder="Username" id = 'userna1' onblur="validate1()" required >
+                    </td>
+                    <td id="error1"></td>
+                </tr>
+                <tr>
+                    <td>
+        <input type="password" placeholder="Password" id="userpass1" onblur="validate2()" required >
+                    </td>
+                    <td id="error2">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <tr><td> <input type="submit" value="Login"></td>
+                        </tr><tr><td><input type="reset"></td></tr>
+                   
+                </tr>
+        </table>
+        <a href="../HTML/signup.html"><input type="button" value="Sign up"></input type="button"></a>
+
+    </div>
+    </div>
+    </form>
+    <script src="../JAVASCRIPT/validationLogin.js"></script>
+</body>
+
+</html>

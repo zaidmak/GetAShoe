@@ -1,0 +1,92 @@
+body{
+    background-image: url('../Extras/loginbg.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+#firstdiv{
+    position: relative;
+    left: 500px;
+    height: auto;
+    width: 400px;
+    opacity: 0.8;
+    justify-content: center;
+}
+#seconddiv{
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+[type= submit]{
+    border-radius: 25px;
+    height: 40px;
+    width: 100px;
+    padding-top: 5px;
+    margin-top: 30px;
+    position: relative;
+    left: 40px;
+}
+[type=reset]{
+    border-radius: 25px;
+    height: 40px;
+    width: 100px;
+    padding-top: 5px;
+    margin-top: 30px;
+    position: relative;
+    left: 40px;
+
+}
+#userpass{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: tan transparent;
+    margin-top: 20px;
+    
+}
+input{
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+tr{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#error1,#error2{
+    color: black;
+    font-weight: bolder;
+    font-stretch: expanded;
+
+}
+table{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+   align-items: stretch;
+    
+
+}
+#move{left: 10px;
+padding: 10px;
+}
+#move2{
+    left: 20px;
+}
+button{
+    border-radius: 25px;
+    height: 40px;
+    width: 100px;
+    padding-top: 5px;
+    margin-top: 30px;
+
+}

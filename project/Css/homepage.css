@@ -1,0 +1,83 @@
+body{
+    background-image: url('../Extras/homebg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+nav{
+    background-color: #328fa8;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#home::before {
+    font-weight: bold;
+    color: black;
+    content: "HOME ";
+    padding-left: 100px;
+  }
+#cart::before {
+    font-weight: bold;
+    color: black;
+    content: "CART";
+  }
+#login::before {
+    font-weight: bold;
+    color: black;
+    content: "LOGIN/SIGNUP ";
+    padding-right: 100px;
+  }
+  #stock::before {
+    font-weight: bold;
+    color: black;
+    content: "STOCK ";
+    padding-right: 100px;
+  }
+tr{
+    display: flex;
+    margin:auto;  
+    width: 1280px;
+    justify-content: space-between;
+    height: 400px;
+    padding: 20px;
+}
+td{
+    background-color: rgba(66, 135, 245, 0.6);
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+}
+#head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    margin-top: 10px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+#about{
+    background-color: rgba(50, 162, 168, 0.6);
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+table{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
